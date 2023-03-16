@@ -14,7 +14,7 @@ json_data =  [{"b2b_sales_medium": "Enterprise Sellers", "city": "Bengaluru", "m
 
 
 
-df = pd.read_json(json_data)
+df = pd.read_json(DATA_URL)
 
 st.dataframe(df)
-# st.write(json_data)
+st.write(json_data)
